@@ -190,15 +190,15 @@ int main(void) {
       Color color = BLACK;
       if (i < 2)
         color = BLUE;
-      if (i < 4 && i >= 2)
+      else if (i < 4 && i >= 2)
         color = RED;
-      if (i < 6 && i >= 4)
+      else if (i < 6 && i >= 4)
         color = GREEN;
-      if (i < 8 && i >= 6)
+      else if (i < 8 && i >= 6)
         color = BLUE;
-      if (i < 10 && i >= 8)
+      else if (i < 10 && i >= 8)
         color = RED;
-      if (i < 12 && i >= 10)
+      else if (i < 12 && i >= 10)
         color = GREEN;
       if (wireFrame) {
         DrawTriangleLines(
