@@ -90,7 +90,7 @@ int main(void) {
   static const double near = 1.0;
   static const double far = 90.0;
   Vec2 size = {800, 800};
-  double ar = size.x / size.y;
+  double ar = size.y / size.x;
   static bool wireFrame = false;
   const double tanFov = tan(fov);
   Matrix4x4 proj = {
