@@ -1,0 +1,23 @@
+= 3D cube software renderer
+Duomi1
+v1,0
+2024
+
+:imagesdir: ./images
+
+== What is this?
+
+This is a c program written by me that renders a spinning cube
+in perspective. The desktop version uses raylib to to draw the
+graphics and the m5stack uses the m5stack libraries to draw the
+graphics. There is a simple Makefile that can be used to compile
+for the desktop. And for the m5 version uses platformio as the
+build system.
+
+== Images
+
+image::on_computer.png[]
+image::on_m5stack.jpg[]
+image::on_m5stack_2.jpg[]
+image::on_m5stack_3.jpg[]
+image::on_m5stack_4.jpg[]
